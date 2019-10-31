@@ -8,4 +8,4 @@ let g:ale_linters_explicit = 1
 let g:ale_linters = {'javascript': ['eslint', 'flow', 'prettier']}                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                            
 " Fix files with prettier, and then ESLint.                                                                                                                                                                                                                                                                                
-let b:ale_fixers = ['prettier', 'eslint'
+let b:ale_fixers = ['prettier', 'eslint']
