@@ -8,7 +8,4 @@ let g:ale_linters_explicit = 1
 let g:ale_linters = {'javascript': ['eslint', 'flow', 'prettier']}                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                            
 " Fix files with prettier, and then ESLint.                                                                                                                                                                                                                                                                                
-let b:ale_fixers = ['prettier', 'eslint']
-
-" Fix on save
-let g:ale_fix_on_save = 1
+let b:ale_fixers = ['prettier', 'eslint'
