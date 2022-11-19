@@ -1,10 +1,10 @@
-snippet com "Standard functional React component" b
-import React from "react";
+snippet com "Standard functional Typescript React component" b
+import React, { FC, ReactElement } from "react";
 
 interface Props {
 }
 
-const ${1:`!v expand('%:t:r')`} = (props: Props): React.ReactElement => {
+const ${1:`!v expand('%:t:r')`}: FC<Props> = ({ }): ReactElement => {
   return (
     <div>
     </div>
